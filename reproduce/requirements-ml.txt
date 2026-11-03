@@ -1,0 +1,10 @@
+# Expensive tier: encoder (ML/03, ML/06), D1 (ML/10), D3 (ML/11), JEPA. CPU runs are bit-for-bit reproducible;
+# SciBERT (allenai/scibert_scivocab_uncased) is downloaded from Hugging Face on first use. Python 3.13.9.
+numpy==2.1.3
+scipy==1.14.1
+scikit-learn==1.6.0
+pandas==2.2.3
+torch==2.13.0
+transformers==5.14.1
+tokenizers==0.22.2
+safetensors==0.8.0

@@ -1,0 +1,2 @@
+# PDF extraction dependency; MultiCite uses its existing pinned environment.
+PyMuPDF==1.26.7

@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-03",
+  "archive": "measurement_record_2026-11-03.tar.gz",
+  "archive_sha256": "3938528fc43c187d3ab0619ce8990c7212f5b4169ae6e7df890c3a3a63eb2f36",
+  "archive_bytes": 181807124,
+  "manifest_sha256": "ac83dc237bda804acd15a41487a87f030b2a6cf0503f98521962a34d2b564513",
+  "files": 4707,
+  "files_packed": 4700,
+  "weights_hashed_not_packed": 7,
+  "total_bytes": 5091274322,
+  "record_dirs": [
+    "annotations",
+    "docs",
+    "private/preregistration",
+    "private/plans",
+    "analysis",
+    "paper_iconf",
+    "paper_sts",
+    "reproduce",
+    "README.md",
+    "requirements.txt",
+    "extra/manuscript_working_copies"
+  ],
+  "note": "Code is tracked in git; data, labels, logs, results and manuscripts are private and pinned here by hash."
+}

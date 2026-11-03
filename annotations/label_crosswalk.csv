@@ -1,0 +1,30 @@
+dimension,codebook_label,canonical_value,status,note
+research_contribution,artifact,artifact_system,mechanical,rename only
+research_contribution,dataset,dataset_benchmark,mechanical,rename only
+research_contribution,empirical,empirical_finding,mechanical,rename only
+research_contribution,methodological,method_tool,mechanical,rename only
+research_contribution,opinion,critique_reflection,mechanical,rename only
+research_contribution,survey,survey_synthesis,mechanical,rename only
+research_contribution,theoretical,theory_framework,mechanical,rename only
+research_contribution,unclear,,exclude_nonmappable,"No equivalent exists in the canonical contribution field. Exclude human `unclear` rows from human-canonical comparison and report the exclusion count/rate; retain them for human-human reliability. Do not aggregate this with other dimensions into the withdrawn 11,748-judgement claim."
+citance_function,motivates_background,background_bulk,mechanical,"Canonical name is misleading but the dimension is independent: background_bulk splits 302 bulk / 374 core in HCI. motivates_background is the better name."
+citance_function,builds_on_finding,uses_finding_as_evidence,mechanical,rename only
+citance_function,compares_against,compares_or_contrasts,mechanical,rename only
+citance_function,applies_framework,applies_framework,mechanical,identical
+citance_function,reuses_artifact,system_reuse_or_extension,mechanical,rename only
+citance_function,uses_method,uses_method,mechanical,identical
+citance_function,other,,exclude_nonmappable,"The revised codebook distinguishes a clear residual function (`other`) from insufficient evidence (`unclear`), but the canonical mapping has no separate residual target. Exclude these rows from human-canonical comparison and report the exclusion count/rate."
+citance_function,unclear,unclear,mechanical,identical
+realizes_contribution,yes,yes,mechanical,identical
+realizes_contribution,partial,partial,mechanical,identical
+realizes_contribution,no_background,no,mechanical,rename only
+realizes_contribution,unclear,,exclude_nonmappable,"Canonical has only yes/partial/no. Exclude human `unclear` rows from human-canonical comparison and report the exclusion count/rate; retain them for human-human reliability."
+bulk_or_core,core,core,mechanical,identical
+bulk_or_core,bulk,bulk,mechanical,identical
+bulk_or_core,unclear,,exclude_nonmappable,"Canonical has only bulk/core. Exclude human `unclear` rows from human-canonical comparison and report the exclusion count/rate; retain them for human-human reliability."
+rhetorical_polarity,supports,support,mechanical,rename only
+rhetorical_polarity,neutral_use,neutral_context,mechanical,rename only
+rhetorical_polarity,contrasts,contrast,mechanical,rename only
+rhetorical_polarity,mixed,mixed,mechanical,identical
+rhetorical_polarity,unclear,unclear,mechanical,identical
+rhetorical_polarity,qualifies,,exclude_nonmappable,"Retain `qualifies` as hedged endorsement rather than collapse it into mixed or neutral_context. Exclude these rows from human-canonical comparison and report the exclusion count/rate."

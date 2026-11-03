@@ -1,0 +1,56 @@
+{
+  "frozen_at_utc": "2026-08-29T04:05:04.561617+00:00",
+  "git_commit": "f17c11227bfe5caaea0a885a53d52338d6d24c11",
+  "files": {
+    "annotations/ANNOTATION_CODEBOOK_DRAFT.md": {
+      "sha256": "fe36f5740ca6e4bc37e793b41552da98604caf20064cba9f5143861d37861570",
+      "bytes": 9945
+    },
+    "annotations/POLARITY_CODEBOOK_DRAFT.md": {
+      "sha256": "87c49da7d81b439309623cbb064b83a57ada8d1722c2a9b7081728b137715052",
+      "bytes": 4200
+    },
+    "annotations/label_crosswalk.csv": {
+      "sha256": "b9f958c3d069f5ca93b36827ba29137bec764d88048d702a7b246cd9788ee3a5",
+      "bytes": 3092
+    }
+  },
+  "canonical_values": {
+    "research_contribution": [
+      "artifact_system",
+      "critique_reflection",
+      "dataset_benchmark",
+      "empirical_finding",
+      "method_tool",
+      "survey_synthesis",
+      "theory_framework"
+    ],
+    "citance_function": [
+      "applies_framework",
+      "background_bulk",
+      "compares_or_contrasts",
+      "system_reuse_or_extension",
+      "unclear",
+      "uses_finding_as_evidence",
+      "uses_method"
+    ],
+    "realizes_contribution": [
+      "no",
+      "partial",
+      "yes"
+    ],
+    "bulk_or_core": [
+      "bulk",
+      "core"
+    ],
+    "rhetorical_polarity": [
+      "contrast",
+      "mixed",
+      "neutral_context",
+      "support",
+      "unclear"
+    ]
+  },
+  "unresolved_crosswalk_rows": [],
+  "note": "Mechanical freeze record only. It attests to file contents at a point in time, not to the adequacy of the construct definitions, anchors, unclear rule, or reliability thresholds."
+}

@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.env
+# Data, results and manuscripts are not distributed with the code (see README, "Data you need").
+/analysis/derived/
+/analysis/results/
+/annotations/generated/
+/annotations/coders/
+/external_data/
+/yiren_artifacts/
+/private/
+/reproduce_out/
+# Full v2 codebook (quotes the canonical record's rationales); the public copy is CODEBOOK_v2_PUBLIC.md.
+/annotations/CODEBOOK_v2_DRAFT.md

@@ -1,0 +1,97 @@
+{
+  "frozen_at_utc": "2026-10-03T22:58:49.091366+00:00",
+  "instrument": "codebook v2, Passes 1-2 (Pass 3 dropped)",
+  "git_head": "29afe41a0a8b11a0ff5417c4703214b27dc08541",
+  "gates": {
+    "1_D3": "signed off 2026-09-28",
+    "2_references": "met 2026-10-03 (17 verified; Bowker & Star, Cano dropped as uncited)",
+    "3_anchors": "met 2026-10-03 (8 coded by lead; B2 revised to claim_dependent no)",
+    "4_calibration": "met 2026-10-03; critical cells 5 / 8 / 11 of 40"
+  },
+  "files": {
+    "annotations/CODEBOOK_v2_DRAFT.md": {
+      "sha256": "2acafc2e0d9b72b3ade90527048656dab41a67361493fe45c6f2a7b943bc7639",
+      "bytes": 29283
+    },
+    "annotations/CODEBOOK_DEFECT_REPORT_2026-08-11.md": {
+      "sha256": "e7191a5793608c12d6654f741ca01915b5fd85b1ccba00c6c2a8bff408fd77de",
+      "bytes": 11921
+    },
+    "annotations/generated/v2_prep/anchors_8.csv": {
+      "sha256": "757b4d8f15a58c8ec498f614359d45b5eaaebadb49f888809e66a12eba765d49",
+      "bytes": 8585
+    },
+    "annotations/generated/v2_prep/reference_check_17.csv": {
+      "sha256": "e8644aa4ece5169918f3993cdae483718241ad9b3e1406d9097b926f9a8c7e70",
+      "bytes": 10453
+    },
+    "annotations/generated/v2_prep/rationale_check_50.csv": {
+      "sha256": "f2043f233e69c975c681964b0a0757602cab5d6e6fd8a056b2bf9b710be0eb28",
+      "bytes": 20252
+    },
+    "annotations/generated/v2_calibration_2026-10-02/calibration_pass1.csv": {
+      "sha256": "56272ed927d078aa53bae8aaf9dff7617228a3e072238291cf3e1b693359a20d",
+      "bytes": 29622
+    },
+    "annotations/generated/v2_calibration_2026-10-02/calibration_pass2.csv": {
+      "sha256": "a43731ca18da9195c45d600b437709822f35d09ac55b179eae166176ca3c39c3",
+      "bytes": 32602
+    },
+    "annotations/generated/v2_coding_2026-10-02/manifest.json": {
+      "sha256": "37f1d7a55c1fa310ad92fc15c3d001f17fc458cfa8ad2713dfffe91e73f3258c",
+      "bytes": 2880
+    },
+    "analysis/experiments/21_make_v2_coding_files.py": {
+      "sha256": "50750e56b63481760d44285a497bbe02f2f96e89a5dffd2b10cfabbff73ff24e",
+      "bytes": 14738
+    }
+  },
+  "labels": {
+    "cited_contribution_type": [
+      "empirical",
+      "artifact",
+      "methodological",
+      "theoretical",
+      "dataset",
+      "survey",
+      "opinion",
+      "unclear"
+    ],
+    "citation_function": [
+      "background",
+      "uses_method",
+      "applies_framework",
+      "builds_on_finding",
+      "reuses_artifact",
+      "compares_against",
+      "other",
+      "unclear"
+    ],
+    "credits_contribution": [
+      "specific",
+      "generic",
+      "unclear"
+    ],
+    "uptake_mode": [
+      "method",
+      "artifact",
+      "finding",
+      "extension",
+      "framing",
+      "design_knowledge",
+      "contrast",
+      "none",
+      "unclear"
+    ],
+    "uptake_degree": [
+      "full",
+      "partial",
+      "(blank when uptake_mode is none or unclear)"
+    ],
+    "claim_dependent": [
+      "yes",
+      "no",
+      "unclear"
+    ]
+  }
+}

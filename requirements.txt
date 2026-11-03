@@ -1,0 +1,2 @@
+# Exact dependency used for the admitted row-35 derivation.
+numpy==2.1.3
